@@ -10,7 +10,7 @@ variable "volume_size" {
 
 variable "distro_ec2" {
   type    = bool
-  default = true
+  default = false
 }
 
 variable "cloud-config-vpn" {
